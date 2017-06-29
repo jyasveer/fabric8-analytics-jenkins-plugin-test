@@ -1,7 +1,7 @@
 #!groovy
 
 node {
-    git url: 'https://github.com/vert-x3/vertx-auth.git'
+    git url: 'https://github.com/msrb/vertx-auth.git'
 
     sh 'mvn io.github.stackinfo:stackinfo-maven-plugin:0.2:prepare'
     
