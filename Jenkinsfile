@@ -1,7 +1,7 @@
 #!groovy
 
 node {
-    git url: 'https://github.com/msrb/vertx-auth.git'
+    git url: 'git@github.com:jyasveer/multipom-support-test-repo.git'
 
     sh 'mvn io.github.stackinfo:stackinfo-maven-plugin:0.2:prepare'
     
