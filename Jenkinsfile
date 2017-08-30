@@ -1,7 +1,7 @@
 #!groovy
 
 node {
-    git url: 'git@github.com:jyasveer/maven-multi-module-example.git'
+    git url: 'git@github.com:jyasveer/microspringboot1.git'
 
     sh 'mvn io.github.stackinfo:stackinfo-maven-plugin:0.2:prepare'
     
